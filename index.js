@@ -47,6 +47,37 @@
 // console.log(Boolean(example));
 //expected true because he has a value
 
+//ARRAYS JAVASCRIPT 
 
+// let example = [5, 5, 6];
+// console.log(example.length)
+// expected 3
+
+// let example = [5, 6, 7, 8, 9];
+// console.log(example);
+
+//forEach
+// let example = [4, 5, 7, 8]
+// example.forEach((e)=>{
+//     console.log(e);
+// })
+//expected the entire array
+
+
+//this is when you apply the same value to other variable
+//on array, but for both variables is gonna be the same 
+//value if you want to keep the last array en get the value of
+//the new array at the same time do this
+let example = ['Dylan', 5, true];
+let example2 = [...example];
+
+example2.push(11);
+
+console.log(example);
+console.log(example2);
+
+//expected 
+["Dylan", 5, true]
+["Dylan", 5, true, 11]
 
 

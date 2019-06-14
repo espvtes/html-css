@@ -22,6 +22,12 @@
 
 // if you want to return the 5 decimals for the number 7.77 do this
 
-let sample = 7.77;
-console.log(sample.toFixed(5));
+// let sample = 7.77;
+// console.log(sample.toFixed(5));
 //espected 7.77000
+
+function action() {
+    var obj = {name:'jose', age:38}
+
+    alert(obj);
+}

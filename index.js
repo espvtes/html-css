@@ -24,10 +24,29 @@
 
 // let sample = 7.77;
 // console.log(sample.toFixed(5));
-//espected 7.77000
+//expected 7.77000
 
-function action() {
-    var obj = {name:'jose', age:38}
+// let example = 7.77;
+// console.log(example.toFixed(0));
+//expected 8
 
-    alert(obj);
-}
+// function myFuncton(a, b){
+//     return a * b;
+// }
+// console.log(myFuncton(5, 7));
+//expected 35;
+
+//booleans values
+
+// let example = false;
+// console.log(boolean(example));
+//expected false
+
+//but
+// let example = 888;
+// console.log(Boolean(example));
+//expected true because he has a value
+
+
+
+

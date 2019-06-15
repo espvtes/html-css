@@ -147,15 +147,21 @@ console.log(firstName + ' ' + lastName);*/
 //you can declare a variable number just one time and then apply the name of the variable to the data that ypoy want to assigment and
 //if you want to change de value just change the first variable no the all data type of that variable of the entire page.
 
-//math operators
 var year, yearJonh, yearMark;
 year = 2018;
-yearJohn = year - 28;
-yearMark = year - 33;
+ageJohn = 28;
+ageMark = 33;
+
+//math operators
+yearJohn = year - ageJohn;
+yearMark = year - ageMark;
 
 console.log(yearJohn);
 console.log(year + 2);
 console.log(year * 2);
 console.log(year / 10);
 
-//logic operators
+//logical operators
+var johnOlder = ageJohn < ageMark;
+console.log(johnOlder); 
+

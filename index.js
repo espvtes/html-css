@@ -96,3 +96,11 @@
 // expected the same value of the last one.
 
 /**********************COMPLETE COURSE OF JAVASCRIPT************************************* */
+
+//FUNDAMENTAL VARIABLES AND DATA TYPES **************************////////////////////////////
+
+
+var firstName = 'John';
+var lastName = 'Smith';
+var age = 38;
+console.log(firstName + ' ' + lastName + ' '+ 'has ' +' ' + age + ' ' + 'years old');//concatenate the firstName and lastName.

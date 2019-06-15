@@ -120,7 +120,7 @@ var if = 23;*/
 /************************************************** */
 /*Varible mutation and type coercion*/
 
-var firstName = 'John';
+/*var firstName = 'John';
 var age = 28;
 
 //types coercion
@@ -137,4 +137,25 @@ job = 'driver';
 alert(firstName + ' is a ' + age + ' year old ' + job + '. Is he married? ' + isMarried);
 
 var lastName = prompt('What is his last Name?');
-console.log(firstName + ' ' + lastName);
+console.log(firstName + ' ' + lastName);*/
+
+
+
+/*********************************************
+ * BASIC OPERATOR
+ */
+//you can declare a variable number just one time and then apply the name of the variable to the data that ypoy want to assigment and
+//if you want to change de value just change the first variable no the all data type of that variable of the entire page.
+
+//math operators
+var year, yearJonh, yearMark;
+year = 2018;
+yearJohn = year - 28;
+yearMark = year - 33;
+
+console.log(yearJohn);
+console.log(year + 2);
+console.log(year * 2);
+console.log(year / 10);
+
+//logic operators

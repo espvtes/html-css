@@ -165,3 +165,8 @@ console.log(year / 10);
 var johnOlder = ageJohn < ageMark;
 console.log(johnOlder); 
 
+//typeof operators
+console.log(typeof johnOlder);//boolean
+console.log(typeof ageJohn);//number
+console.log(typeof 'Mark is older that John');//string
+console.log(typeof x);//undefine because it's not apply any value;

@@ -122,9 +122,19 @@ var if = 23;*/
 
 var firstName = 'John';
 var age = 28;
+
+//types coercion
 console.log(firstName +' '+ age);
 
 var job, isMarried;
 job = 'teacher';
 isMarried = false;
 console.log(firstName + ' is a ' + age + ' year old ' + job + '. Is he married? ' + isMarried);
+
+// variable mutation//// we don't have to type var again because the variable was already declare.
+age = 'twenty eight';
+job = 'driver';
+alert(firstName + ' is a ' + age + ' year old ' + job + '. Is he married? ' + isMarried);
+
+var lastName = prompt('What is his last Name?');
+console.log(firstName + ' ' + lastName);

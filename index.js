@@ -68,16 +68,31 @@
 //on array, but for both variables is gonna be the same 
 //value if you want to keep the last array en get the value of
 //the new array at the same time do this
-let example = ['Dylan', 5, true];
-let example2 = [...example];
+// let example = ['Dylan', 5, true];
+// let example2 = [...example];
 
-example2.push(11);
+// example2.push(11);
 
-console.log(example);
-console.log(example2);
+// console.log(example);
+// console.log(example2);
 
-//expected 
-["Dylan", 5, true]
-["Dylan", 5, true, 11]
+// //expected 
+// ["Dylan", 5, true]
+// ["Dylan", 5, true, 11]
 
+//IT'S GONNA BE THE SAME OUTPUT OF THE LAST ONE
 
+// let example =['Dylan', 5, true];
+
+// let example2 = example.map((item)=>{
+//     return item;
+// })
+
+// example2.push(11);
+
+// console.log(example);
+// console.log(example2);
+
+// expected the same value of the last one.
+
+/**********************COMPLETE COURSE OF JAVASCRIPT************************************* */

@@ -95,12 +95,28 @@
 
 // expected the same value of the last one.
 
+
+/*********************************************************************************************/
 /**********************COMPLETE COURSE OF JAVASCRIPT************************************* */
+/*VARIABLES AND DATA TYPES*/
 
-//FUNDAMENTAL VARIABLES AND DATA TYPES **************************////////////////////////////
+/*var firstName = 'John';
+console.log(firstName);
 
-
-var firstName = 'John';
 var lastName = 'Smith';
-var age = 38;
-console.log(firstName + ' ' + lastName + ' '+ 'has ' +' ' + age + ' ' + 'years old');//concatenate the firstName and lastName.
+var age = 28;
+
+var fullAge = true;
+console.log(fullAge);
+
+var job;
+console.log(job);
+
+//variables naming rules
+var _3year = 3;
+var JohnMark = 'John and Mark';
+var if = 23;*/
+
+/************************************************** */
+/*Varible mutation and type coercion*/
+

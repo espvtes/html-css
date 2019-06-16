@@ -182,7 +182,12 @@ of operators with lower precedence.
 
  var now = 2019;
  var yearJohn = 1989;
- var fullAge = 30;
-
+ var fullAge = 18;
+// multiple operators
  var isFullAge = now - yearJohn >= fullAge;
  console.log(isFullAge);//true
+
+ let ageJohn = now - yearJohn;
+ let ageMark = 35;
+ let average = (ageJohn + ageMark) / 2;
+ console.log(average);

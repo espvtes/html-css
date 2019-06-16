@@ -144,8 +144,10 @@ console.log(firstName + ' ' + lastName);*/
 /*********************************************
  * BASIC OPERATOR
  */
-//you can declare a variable number just one time and then apply the name of the variable to the data that ypoy want to assigment and
-//if you want to change de value just change the first variable no the all data type of that variable of the entire page.
+//you can declare a variable number just one time and then apply 
+//the name of the variable to the data that ypoy want to assigment and
+//if you want to change de value just change the first variable no the
+ //all data type of that variable of the entire page.
 
 /*var year, yearJonh, yearMark;
 year = 2018;
@@ -180,14 +182,31 @@ respect to each other. Operators with higher precedence become the operands
 of operators with lower precedence.
  */
 
- var now = 2019;
+ /*var now = 2019;
  var yearJohn = 1989;
  var fullAge = 18;
+
 // multiple operators
  var isFullAge = now - yearJohn >= fullAge;
  console.log(isFullAge);//true
 
+//grouping operator
  let ageJohn = now - yearJohn;
  let ageMark = 35;
  let average = (ageJohn + ageMark) / 2;
  console.log(average);
+
+ //multiples assignments
+ let x, y;
+ x = y = (3 + 5) * 4 - 6; //8 * 4 - 6 // 32 - 6 // 26
+ console.log(x, y); // 26 26
+
+ //more operator
+ x *= 2; //it's the same of this // x = x * 2; 
+ console.log(x);//52 because the variable name x is already declared.
+
+x += 10; // 62
+console.log(x);
+x++;// the same if this x = x + 1; x += 1;
+console.log(x);// 63 because was delcared already*/
+

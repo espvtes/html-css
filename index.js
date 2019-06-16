@@ -210,3 +210,22 @@ console.log(x);
 x++;// the same if this x = x + 1; x += 1;
 console.log(x);// 63 because was delcared already*/
 
+/****************
+ * FIRST CODING CHALLENGE
+ */
+
+ let massJohn = 80;//kg
+ let heightJohn = 1.75;//meter
+ 
+ let massMark = 90;
+ let heightMark = 1.80;
+
+ let BMIJohn = massJohn / (heightJohn * heightJohn);
+ let BMIMark = massMark / (heightMark * heightMark);
+
+ console.log(BMIJohn);
+ console.log(BMIMark);
+
+ let aveBMI = BMIJohn > BMIMark;
+ 
+ console.log('Is Mar\'s BMI higher than John\'s? ' + aveBMI);

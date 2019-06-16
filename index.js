@@ -173,6 +173,11 @@ console.log(typeof x);//undefine because it's not apply any value;*/
 
 /*********************************
  * operator precedence
+ * 
+
+Operator precedence determines the way in which operators are parsed with 
+respect to each other. Operators with higher precedence become the operands 
+of operators with lower precedence.
  */
 
  var now = 2019;

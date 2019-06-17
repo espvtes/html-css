@@ -98,8 +98,11 @@
 
 /*********************************************************************************************/
 /**********************COMPLETE COURSE OF JAVASCRIPT************************************* */
-/*VARIABLES AND DATA TYPES*/
 
+
+/**************************
+ * VARIABLES AND DATA TYPES*/
+ 
 /*var firstName = 'John';
 console.log(firstName);
 
@@ -116,6 +119,7 @@ console.log(job);
 var _3year = 3;
 var JohnMark = 'John and Mark';
 var if = 23;*/
+
 
 /************************************************** */
 /*Varible mutation and type coercion*/
@@ -173,6 +177,8 @@ console.log(typeof ageJohn);//number
 console.log(typeof 'Mark is older that John');//string
 console.log(typeof x);//undefine because it's not apply any value;*/
 
+
+
 /*********************************
  * operator precedence
  * 
@@ -210,11 +216,14 @@ console.log(x);
 x++;// the same if this x = x + 1; x += 1;
 console.log(x);// 63 because was delcared already*/
 
+
+
 /****************
  * FIRST CODING CHALLENGE
+ * calculate the BMI(Body mass index) of two persons
  */
 
- let massJohn = 80;//kg
+ /*let massJohn = 80;//kg
  let heightJohn = 1.75;//meter
  
  let massMark = 90;
@@ -228,4 +237,34 @@ console.log(x);// 63 because was delcared already*/
 
  let aveBMI = BMIJohn > BMIMark;
  
- console.log('Is Mar\'s BMI higher than John\'s? ' + aveBMI);
+ console.log('Is Mar\'s BMI higher than John\'s? ' + aveBMI);*/
+
+
+
+ /**********************************
+  * if/else conditions
+  */
+
+/*let firstName = 'John';
+let civilStatus = 'married';
+
+if (civilStatus === 'married'){
+    console.log(firstName + ' is married!!!');// is right because the values to compare are true
+}*/
+
+let firstName = 'John';
+let civilStatus = 'Single';
+
+if (civilStatus === 'married'){
+    console.log(firstName + 'is married!!!');// is clear because the values to compare is false
+} else {
+    console.log(firstName + ' will hopefully marry soon :)');
+}
+    
+
+var isMarried = true;
+if (isMarried){
+    console.log(firstName + ' is married!!!');
+} else {
+    console.log(firstName + ' will hopefully marry soon :)');
+}

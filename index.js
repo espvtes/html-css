@@ -252,7 +252,7 @@ if (civilStatus === 'married'){
     console.log(firstName + ' is married!!!');// is right because the values to compare are true
 }*/
 
-let firstName = 'John';
+/*let firstName = 'John';
 let civilStatus = 'Single';
 
 if (civilStatus === 'married'){
@@ -267,4 +267,37 @@ if (isMarried){
     console.log(firstName + ' is married!!!');
 } else {
     console.log(firstName + ' will hopefully marry soon :)');
-}
+}*/
+
+
+/*let massJohn = 80;//kg
+ let heightJohn = 1.75;//meter
+ 
+ let massMark = 120;
+ let heightMark = 1.80;
+
+ let BMIJohn = massJohn / (heightJohn * heightJohn);
+ let BMIMark = massMark / (heightMark * heightMark);
+
+ if(BMIJohn > BMIMark){
+    console.log('Mar\'s BMI higher than John\'s');
+ } else {
+    console.log('John\'s BMI higher than Mark\'s');
+ }*/
+
+ /******************************************
+  * booleans logic
+  */
+
+  let firstName = 'John';
+  let age = 20;
+
+  if(age <  13){
+    console.log(firstName + ' is a boy.');
+  } else if (age >= 13 && age < 20) {
+    console.log(firstName + ' is a teenager.');
+  } else if (age >= 20 && age < 30){
+      console.log(firstName + ' is a young man.');
+  } else {
+      console.log(firstName + ' is a man.!!');
+  }

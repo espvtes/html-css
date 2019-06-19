@@ -289,7 +289,7 @@ if (isMarried){
   * booleans logic
   */
 
-  let firstName = 'John';
+  /*let firstName = 'John';
   let age = 20;
 
   if(age <  13){
@@ -300,4 +300,19 @@ if (isMarried){
       console.log(firstName + ' is a young man.');
   } else {
       console.log(firstName + ' is a man.!!');
-  }
+  }*/
+
+  /********************************************
+   * the ternary operator and switch statement
+   */
+
+   let firstName = 'John';
+   let age = 16;
+ age > 18 ? console.log(firstName + ' drinks beer')
+ : console.log(fistName + ' drinks juice');
+ 
+//    if(age <= 18){
+//     console.log(firstName + ' you are apto for drink juice');
+//    } else {
+//        console.log('You can drink alcohol;');
+//    }

@@ -306,13 +306,36 @@ if (isMarried){
    * the ternary operator and switch statement
    */
 
-   let firstName = 'John';
-   let age = 16;
- age > 18 ? console.log(firstName + ' drinks beer')
- : console.log(fistName + ' drinks juice');
- 
+   /*let firstName = 'John';
+   let age = 22;
+
+   //ternary operator
+ age > 18 ? console.log(firstName + ' drinks beer')//first is the conditional, next is the using if and then else.
+ : console.log(firstName + ' drinks juice');
+
+ var drink = age >=18 ? 'beer' : 'juice';//this say is john grater than 18? if is yes the answer is beer then it not.
+ console.log(drink);*/
+
+/////////////alternative of the first operator////////////// is the same of the operator above
+// if(age >= 18){
+//     var drink = 'beer';
+// } else {
+//     var drink = 'juice';
+// }
+
+//switch statement
+
 //    if(age <= 18){
 //     console.log(firstName + ' you are apto for drink juice');
 //    } else {
 //        console.log('You can drink alcohol;');
 //    }
+
+
+//this is an example, this is work ternary operator
+/*let firstName = 'John';
+let age = 21;
+
+var drink = age >= 18 ? firstName + ' drink beer' : firstName + ' drink juice';
+console.log(drink);*/
+

@@ -302,7 +302,7 @@ if (isMarried){
       console.log(firstName + ' is a man.!!');
   }*/
 
-  /********************************************
+  /*************************************************************************************
    * the ternary operator and switch statement
    */
 
@@ -343,28 +343,13 @@ console.log(drink);*/
  * THIS IS THE SWITCH STATEMENT IS THE SAME LIKE A BOOLEANS STATEMENT
  */
 
-// let firstName = 'John';
-// var job = 'instructor';
 
-// switch (job){
-//     case 'teacher':
-//     case 'instructor'://you can add here another function or job for example
-//         console.log(firstName + ' teaches kids how to code.');
-//         break;
-//     case 'driver':
-//         console.log(firstName + ' drives an uber in Lisbon');
-//         break;
-//     case 'designer':
-//         console.log(firstName + ' designs beautiful web side');
-//         break;
-//         default:
-//         console.log(firstName + ' does something else');
-// }
 
-let firstName = 'John';
+///////////////////////booleans as the same
+/*let firstName = 'John';
 let job = 'motorist';
 
-  if(job === 'mechanic'){
+if(job === 'mechanic'){
         console.log(firstName + ' teaches kids how to repair.');
   } else if (job === 'driver' || job === 'motorist') {
         console.log(firstName + ' drives an uber in Lisbon.');
@@ -372,4 +357,56 @@ let job = 'motorist';
         console.log(firstName + ' designs beautiful web side.');
   } else {
         console.log(firstName + ' does something else');
-  }
+  }*/
+
+  /////////////////////switch statement
+
+/*let firstName = 'John';
+var job = 'instructor';
+
+switch (job){
+    case 'teacher':
+    case 'instructor'://you can add here another function or job for example
+        console.log(firstName + ' teaches kids how to code.');
+        break;
+    case 'driver':
+        console.log(firstName + ' drives an uber in Lisbon');
+        break;
+    case 'designer':
+        console.log(firstName + ' designs beautiful web side');
+        break;
+    default:
+        console.log(firstName + ' does something else');
+}
+
+let age = 25;
+
+switch(true){
+    case age < 13:
+        console.log(firstName + ' is a boy.');
+        break;
+    case age >= 13 && age < 20:
+        console.log(firstName + ' is a teenager.');
+        break;
+    case age >= 20 && age < 30:
+        console.log( firstName + ' is a young man.');
+        break;
+    default:
+        console.log(firstName + ' is a man.');
+}*/
+
+
+
+/*******************************************
+ * truthy and falsy values and equality operator
+ */
+
+ // falsy values: undefined, null, '', 0, NaN
+ // truthy values: not falsy values
+
+ var height;
+ if(height){
+    console.log('Variable is defined');
+ } else {
+     console.log('Variable has not been defined');
+ }

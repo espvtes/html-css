@@ -339,20 +339,37 @@ let age = 21;
 var drink = age >= 18 ? firstName + ' drink beer' : firstName + ' drink juice';
 console.log(drink);*/
 
-let firstName = 'John';
-var job = 'instructor';
+/****************
+ * THIS IS THE SWITCH STATEMENT IS THE SAME LIKE A BOOLEANS STATEMENT
+ */
 
-switch (job){
-    case 'teacher':
-    case 'instructor'://you can add here another function or job for example
-        console.log(firstName + ' teaches kids how to code.');
-        break;
-    case 'driver':
-        console.log(firstName + ' drives an uber in Lisbon');
-        break;
-    case 'designer':
-        console.log(firstName + ' designs beautiful web side');
-        break;
-        default:
+// let firstName = 'John';
+// var job = 'instructor';
+
+// switch (job){
+//     case 'teacher':
+//     case 'instructor'://you can add here another function or job for example
+//         console.log(firstName + ' teaches kids how to code.');
+//         break;
+//     case 'driver':
+//         console.log(firstName + ' drives an uber in Lisbon');
+//         break;
+//     case 'designer':
+//         console.log(firstName + ' designs beautiful web side');
+//         break;
+//         default:
+//         console.log(firstName + ' does something else');
+// }
+
+let firstName = 'John';
+let job = 'motorist';
+
+  if(job === 'mechanic'){
+        console.log(firstName + ' teaches kids how to repair.');
+  } else if (job === 'driver' || job === 'motorist') {
+        console.log(firstName + ' drives an uber in Lisbon.');
+  } else if (job === 'designer'){
+        console.log(firstName + ' designs beautiful web side.');
+  } else {
         console.log(firstName + ' does something else');
-}
+  }

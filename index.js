@@ -340,10 +340,11 @@ var drink = age >= 18 ? firstName + ' drink beer' : firstName + ' drink juice';
 console.log(drink);*/
 
 let firstName = 'John';
-var job = 'driver';
+var job = 'instructor';
 
 switch (job){
-    case'teacher':
+    case 'teacher':
+    case 'instructor'://you can add here another function or job for example
         console.log(firstName + ' teaches kids how to code.');
         break;
     case 'driver':

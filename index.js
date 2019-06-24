@@ -339,3 +339,19 @@ let age = 21;
 var drink = age >= 18 ? firstName + ' drink beer' : firstName + ' drink juice';
 console.log(drink);*/
 
+let firstName = 'John';
+var job = 'driver';
+
+switch (job){
+    case'teacher':
+        console.log(firstName + ' teaches kids how to code.');
+        break;
+    case 'driver':
+        console.log(firstName + ' drives an uber in Lisbon');
+        break;
+    case 'designer':
+        console.log(firstName + ' designs beautiful web side');
+        break;
+        default:
+        console.log(firstName + ' does something else');
+}

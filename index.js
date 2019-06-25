@@ -404,9 +404,124 @@ switch(true){
  // falsy values: undefined, null, '', 0, NaN
  // truthy values: not falsy values
 
- var height;
- if(height){
+ /*var height;
+ height = 23;
+ if(height || height === 0){
     console.log('Variable is defined');
  } else {
      console.log('Variable has not been defined');
  }
+
+ //EQUALITY OPERATORS
+if(height == '23'){//when the java use the == operator convert the string to the number.
+    //because it's not strictly the same value when you use === operator.
+    console.log('The == operator does type coercion!.');
+}*/
+
+
+
+/******************************************
+ * examples examples examples examples examples examples
+ */
+// let citys = [' London', ' habana', ' bogota', ' lima',' madrid'];
+
+// let capitals = '';
+// capitals += citys[0] + '<br/>';
+// capitals += citys[1] + '<br/>';
+// capitals += citys[2] + '<br/>';
+// capitals += citys[3] + '<br/>';
+// capitals += citys[4] + '<br/>';
+// for(i=0; i<citys.length; i++){
+//     capitals += citys[i] + '<br/>';
+// }
+// console.log(capitals);
+
+//////for statement/////////////////////////
+/*var peoples = [{name: 'Eva',age: 25},{name: 'Noy',age: 42},{name: 'Ani',age: 18},{name: 'Hayk',age: 25}]
+
+var avgAge = 0;
+
+for (var iter = 0; iter < peoples.length; iter++){
+	avgAge += peoples[iter].age;
+}
+
+avgAge = avgAge / peoples.length;
+
+console.log(avgAge);*/
+
+//////for/in////////////////////////////
+
+/*var peoples = [{name: 'Eva',age: 25},{name: 'Noy',age: 42},{name: 'Ani',age: 18},{name: 'Hayk',age: 25}]
+
+var avgAge = 0;
+
+for (var e in peoples){
+	avgAge += peoples[e].age;
+}
+
+avgAge = avgAge / peoples.length;
+console.log(avgAge);*/
+
+///for each/////////////////////////////////
+
+/*var peoples = [{name: 'Eva',age: 25},{name: 'Noy',age: 42},{name: 'Ani',age: 18},{name: 'Hayk',age: 25}]
+
+var avgAge = 0;
+
+peoples.forEach((e)=>{
+    avgAge += e.age;
+})
+avgAge = avgAge / peoples.length;
+console.log(avgAge);*/
+
+////////while/////////////////////////////
+/*var arr = [12, 17.5, 69, 112, -12, 10, -6];
+var sum = 0;
+var i = 0;
+
+while (arr[i] > 0){
+    sum += arr[i];
+    i++;
+}
+console.log(sum);*/
+
+///////do while////////////////////////
+/*var i = 0;
+var test = '';
+
+do {
+    test = '1th iteration';
+    i++;
+}
+while(i < 0)
+console.log(i);*/
+
+/*var result = "";
+var i = 0;
+
+do {
+  i = i + 1;
+  result = result + i;
+} while (i < 34);
+
+console.log(result);*/
+///////////////////////////////////////////////////////////
+
+//////****************CODING CHALLENGE 2 */
+
+
+
+let scoreJohn = 89 + 120 + 103;
+let scoreMark = 116 + 94 + 123;
+
+var aveJohn = scoreJohn / 3;
+var aveMark = scoreMark / 3;
+console.log(aveJohn, aveMark);
+
+if(aveJohn > aveMark){
+    console.log('John are the winner with ' + aveJohn + ' point of the game');
+} else if (aveJohn < aveMark){
+    console.log('Mark are the winner with ' + aveMark + ' point of the game');
+} else {
+    console.log('There is a draw');
+}

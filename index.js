@@ -515,7 +515,7 @@ console.log(result);*/
 //print in the console who is the winner for point
 // add another player
 // and print in the console whom is the winner when you compare the average of score.
-let scoreJohn = 89 + 120 + 103;
+/*let scoreJohn = 89 + 120 + 103;
 let scoreMark = 116 + 94 + 123;
 let scoreMary = 97 + 134 + 105;
 
@@ -533,6 +533,19 @@ if(aveJohn > aveMark & aveJohn > aveMary){
     console.log('Mary are the winner with ' + aveMary + ' point of the game');
 } else {
     console.log('There is a draw');
-}
+}*/
 
-//add another person to the game
+
+/*************************************************
+ * Functions 
+ */
+//declare function
+//declare name of the function
+//declare the argument to pass into the function
+// to declare the function block
+
+function calcualteAge(birthYear){
+    return 2019 - birthYear;
+}
+let ageJohn = calcualteAge(1986);
+console.log();

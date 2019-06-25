@@ -536,8 +536,8 @@ if(aveJohn > aveMark & aveJohn > aveMary){
 }*/
 
 
-/*************************************************
- * Functions 
+/***************************************************************
+ ******************** FUNCTIONS
  */
 //declare function
 //declare name of the function
@@ -548,7 +548,7 @@ if(aveJohn > aveMark & aveJohn > aveMary){
 
 /** how to calculate the age of the person*/
 //you can declare function after add how many persons as you want
-function calcualteAge(birthYear){
+/*function calcualteAge(birthYear){
     return 2019 - birthYear;
 }
 let ageJohn = calcualteAge(1986);
@@ -563,4 +563,28 @@ function yearsUntilRetirement(birthYear, firstName){
 }
 yearsUntilRetirement(1986, 'Yusniel');//Yusniel retires in 32 years.
 yearsUntilRetirement(1978, ' John');//John retires in 24 years.
-yearsUntilRetirement(1987, ' Mike');//Mike retires in 33 years.
+yearsUntilRetirement(1987, ' Mike');//Mike retires in 33 years.*/
+
+//////////////////*************FUNCTIONS STATEMENT AND EXPRESSIONS
+
+//*************FUNCTION DECLARATION
+//function whatDoYouDo(job, firstName){}
+
+//*************fUNCTION EXPRESSION
+var whatDoYouDo = function(job, firstName){
+    switch(job){
+        case 'teacher':
+            return firstName + ' teaches kids how to code.';
+        case 'driver':
+            return firstName + ' drives a cab in Lisbon.';
+        case 'designer':
+            return firstName + ' designs beautiful websites';
+        default:
+            return firstName + ' does something else.';
+    }
+}
+console.log(whatDoYouDo('teacher', 'John'));
+console.log(whatDoYouDo('designer', 'Jane'));
+console.log(whatDoYouDo('teacher', 'John'));
+console.log(whatDoYouDo('retirer', 'Mark'));
+// console.log(whatDoYouDo)

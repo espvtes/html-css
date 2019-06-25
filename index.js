@@ -544,8 +544,14 @@ if(aveJohn > aveMark & aveJohn > aveMary){
 //declare the argument to pass into the function
 // to declare the function block
 
+
+
+/** how to calculate the age of the person*/
+//you can declare function after add how many persons as you want
 function calcualteAge(birthYear){
     return 2019 - birthYear;
 }
 let ageJohn = calcualteAge(1986);
-console.log();
+let ageMike = calcualteAge(1978);
+let ageJane = calcualteAge(1987);
+console.log(ageJohn, ageMike, ageJane);

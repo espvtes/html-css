@@ -555,3 +555,12 @@ let ageJohn = calcualteAge(1986);
 let ageMike = calcualteAge(1978);
 let ageJane = calcualteAge(1987);
 console.log(ageJohn, ageMike, ageJane);
+
+function yearsUntilRetirement(birthYear, firstName){
+    var age = calcualteAge(birthYear);
+    var retirement = 65 - age;
+    console.log(firstName + ' retires in ' + retirement + ' years');
+}
+yearsUntilRetirement(1986, 'Yusniel');//Yusniel retires in 32 years.
+yearsUntilRetirement(1978, ' John');//John retires in 24 years.
+yearsUntilRetirement(1987, ' Mike');//Mike retires in 33 years.

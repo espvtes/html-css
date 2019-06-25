@@ -570,8 +570,8 @@ yearsUntilRetirement(1987, ' Mike');//Mike retires in 33 years.*/
 //*************FUNCTION DECLARATION
 //function whatDoYouDo(job, firstName){}
 
-//*************fUNCTION EXPRESSION
-var whatDoYouDo = function(job, firstName){
+//*************fUNCTION EXPRESSION//this is a peace of code that produce value
+/*var whatDoYouDo = function(job, firstName){
     switch(job){
         case 'teacher':
             return firstName + ' teaches kids how to code.';
@@ -586,5 +586,15 @@ var whatDoYouDo = function(job, firstName){
 console.log(whatDoYouDo('teacher', 'John'));
 console.log(whatDoYouDo('designer', 'Jane'));
 console.log(whatDoYouDo('teacher', 'John'));
-console.log(whatDoYouDo('retirer', 'Mark'));
+console.log(whatDoYouDo('retirer', 'Mark'));*/
 // console.log(whatDoYouDo)
+
+
+/********************************
+ * DIFFERENT DATA TYPES
+ * 
+ */
+
+ let john = ['John', 'Smith', 1990, 'teacher', 'false'];
+ john.push('blue');//add element to the end of the array.
+ console.log(john);

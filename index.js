@@ -510,18 +510,29 @@ console.log(result);*/
 //////****************CODING CHALLENGE 2 */
 
 
-
+// calculate the score of the team
+//compare de score of the all teams
+//print in the console who is the winner for point
+// add another player
+// and print in the console whom is the winner when you compare the average of score.
 let scoreJohn = 89 + 120 + 103;
 let scoreMark = 116 + 94 + 123;
+let scoreMary = 97 + 134 + 105;
 
 var aveJohn = scoreJohn / 3;
 var aveMark = scoreMark / 3;
-console.log(aveJohn, aveMark);
+var aveMary = scoreMary / 3;
 
-if(aveJohn > aveMark){
+console.log(aveJohn, aveMark, aveMary);
+
+if(aveJohn > aveMark & aveJohn > aveMary){
     console.log('John are the winner with ' + aveJohn + ' point of the game');
-} else if (aveJohn < aveMark){
+} else if (aveMark > aveJohn & aveMark > aveMary){
     console.log('Mark are the winner with ' + aveMark + ' point of the game');
+} else if (aveMary > aveMark & aveMary > aveJohn){
+    console.log('Mary are the winner with ' + aveMary + ' point of the game');
 } else {
     console.log('There is a draw');
 }
+
+//add another person to the game

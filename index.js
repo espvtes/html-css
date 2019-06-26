@@ -595,6 +595,83 @@ console.log(whatDoYouDo('retirer', 'Mark'));*/
  * 
  */
 
- let john = ['John', 'Smith', 1990, 'teacher', 'false'];
+ /*let john = ['John', 'Smith', 1990, 'teacher', 'designer'];
  john.push('blue');//add element to the end of the array.
- console.log(john);
+ john.unshift('Mr.');// add element to the start of the array.
+ john.pop();//delete or remove the element to the end of the array;
+ john.shift();//delete or remove the first element from array.
+ john.indexOf(1990);//They show the position of the element into the array
+ console.log(john.indexOf(1990));
+
+ var isTeacher = john.indexOf('designer') === -1 ? 'John is not a designer' : 'John is a designer';
+ //is a designer beacuse in into the array 
+ console.log(isTeacher);
+ console.log(john.indexOf('designer'));//3*/
+
+
+
+ /**********************************CODING CHALLENGE 3
+  * PRACTICES
+  */
+            //this is the function for calculate the tips bills
+/*function tipCalculator(bill){
+    var percentage;
+    if(bill < 50){
+        percentage = .2;
+    }else if (bill >= 50 & bill <=200){
+        percentage = .15;
+
+    }else{
+        percentage = .1;
+    }
+    return percentage * bill;
+}
+
+            // this is how you get the all tips values at the same time
+var bills = [124, 48, 268];//all bills 
+var tips = [tipCalculator(bills[0]), //all percentage tips depend of the bills
+            tipCalculator(bills[1]), 
+            tipCalculator(bills[2])];
+            //this is the sum of the all values tips and bills 
+var finalValues = [
+            bills[0] + tips[0],
+            bills[1] + tips[1],
+            bills[2] + tips[2],
+]
+console.log(tips, finalValues);*/
+
+////ternary operator
+/*tipCalculator = (bill) => {
+    let percentage;
+    bill <= 400 ? percentage = .18 : percentage = .2;
+    return percentage * bill;
+}
+console.log(tipCalculator(450));*/
+//this was an example...
+
+// tipCalculator = (bill) =>{
+//     var percentage;
+//     switch(bill < 400){
+//         case percentage = .18:
+//         return percentage * bill;
+//         break;
+//         default:
+//         return percentage * bill;
+//     }
+// }
+// console.log(tipCalculator(350));
+
+
+/*******************************************************
+ * OBJECT AND PROPERTIES 
+ */
+
+ //this is a john object
+ var john = {
+     firstName: 'John',//FIRSTNAME is the key and JOHN is the value.
+     lastname: 'Smith',
+     birthYear: 1990,
+     family: ['Jane', 'Mark', 'Bob', 'Emily'],
+     job: 'teacher',
+     isMarried: false
+ };

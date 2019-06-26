@@ -675,3 +675,21 @@ console.log(tipCalculator(450));*/
      job: 'teacher',
      isMarried: false
  };
+ console.log(john.firstName);//access to the specific value from the object
+ console.log(john['lastname']);//get access to the object values
+ var x = 'birthYear';
+ console.log(john[x]);//access the values into the object 
+ 
+ //you can mutate the data
+ john.job = 'designer';
+ john['isMarried'] = true;
+ console.log(john);
+
+//another form of object
+//new Object
+var jane = new Object();
+jane.firstName = 'John';
+jane.birthYear = 1990;
+jane['lastName'] = 'Smith';
+console.log(jane);
+ 

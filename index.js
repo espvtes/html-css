@@ -667,7 +667,7 @@ console.log(tipCalculator(450));*/
  */
 
  //this is a john object
- var john = {
+ /*var john = {
      firstName: 'John',//FIRSTNAME is the key and JOHN is the value.
      lastname: 'Smith',
      birthYear: 1990,
@@ -691,5 +691,23 @@ var jane = new Object();
 jane.firstName = 'John';
 jane.birthYear = 1990;
 jane['lastName'] = 'Smith';
-console.log(jane);
- 
+console.log(jane);*/
+
+
+
+/***********************************************
+ * object and methods
+ */
+
+ var john = {
+     firstName: 'John',//FIRSTNAME is the key and JOHN is the value.
+     lastname: 'Smith',
+     birthYear: 1990,
+     family: ['Jane', 'Mark', 'Bob', 'Emily'],
+     job: 'teacher',
+     isMarried: false,
+     calcAge: function(birthYear){//calculate the age into the object
+        return 2018 - birthYear;
+     }
+ }
+ console.log(john.calcAge(1990));

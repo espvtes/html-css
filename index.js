@@ -699,7 +699,7 @@ console.log(jane);*/
  * object and methods
  */
 
- var john = {
+ /*var john = {
      firstName: 'John',//FIRSTNAME is the key and JOHN is the value.
      lastname: 'Smith',
      birthYear: 1990,
@@ -710,4 +710,88 @@ console.log(jane);*/
         return 2018 - birthYear;
      }
  }
- console.log(john.calcAge(1990));
+ console.log(john.calcAge(1990));*/
+
+
+ /*another form to calculate the age and get access to change the form to get the 
+ birthYear of john*/
+ /*var john = {
+    firstName: 'John',
+    lastname: 'Smith',
+    birthYear: 1986,
+    family: ['Jane', 'Mark', 'Bob', 'Emily'],
+    job: 'teacher',
+    isMarried: false,
+    calcAge: function(){
+       return 2019 - this.birthYear;//this is ('john'= like 'john.birthYear) as an object access, this is the key word for no write into the function value or properties
+    }
+}
+console.log(john.calcAge());//this is empty because you use the key word this.
+john.age = john.calcAge();//add the properties to the john object*/
+
+//another for to add the properties to the current object of the function
+/*var john = {
+    firstName: 'John',
+    lastname: 'Smith',
+    birthYear: 1986,
+    family: ['Jane', 'Mark', 'Bob', 'Emily'],
+    job: 'teacher',
+    isMarried: false,
+    calcAge: function(){
+     this.age = 2019 - this.birthYear;
+}
+}
+john.calcAge();
+console.log(john)*/
+
+//other example for calculate the age
+ /*var firstName = 'Yusniel';
+ var birthYear = 1986;
+
+ calcAge = (birthYear) =>{
+    return 2019 - birthYear;
+ }
+ console.log(firstName + ' has ' + calcAge(1986) + ' years old.');*/
+
+
+
+
+//////////***************** */CODING CHALLENGE 4****/////////////
+//calculate the BMI in object data type
+var john = {
+    firstName: 'John',
+    lastName: 'Smith',
+    mass: 89,
+    height: 1.75,
+    calcBMI: function(){
+        this.bmi = this.mass / (this.height * 2)
+        return this.bmi;
+    }
+}
+
+var mike = {
+    firstName: 'Mike',
+    lastName: 'Steve',
+    mass: 99,
+    height: 1.87,
+    calcBMI: function(){
+        this.bmi = this.mass / (this.height * 2);
+        return this.bmi;
+    }
+}
+john.calcBMI();
+mike.calcBMI();
+console.log(john, mike);
+
+if(john.bmi > mike.bmi){
+    console.log(john.firstName + ' ' + john.lastName + ' has a higher BMI of ' + mike.bmi);
+} else if(mike.bmi > john.bmi){ 
+    console.log(mike.firstName + ' ' + mike.lastName + ' has a higher BMI of ' + john.bmi);
+} else{
+    console.log('They have the same BMI');
+}
+
+
+
+
+

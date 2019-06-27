@@ -758,7 +758,7 @@ console.log(john)*/
 
 //////////***************** */CODING CHALLENGE 4****/////////////
 //calculate the BMI in object data type
-var john = {
+/*var john = {
     firstName: 'John',
     lastName: 'Smith',
     mass: 89,
@@ -779,17 +779,14 @@ var mike = {
         return this.bmi;
     }
 }
-john.calcBMI();
-mike.calcBMI();
-console.log(john, mike);
-
-if(john.bmi > mike.bmi){
-    console.log(john.firstName + ' ' + john.lastName + ' has a higher BMI of ' + mike.bmi);
-} else if(mike.bmi > john.bmi){ 
-    console.log(mike.firstName + ' ' + mike.lastName + ' has a higher BMI of ' + john.bmi);
+//other form to calculate the bmi into the conditional operator 
+if (john.calcBMI() > mike.calcBMI()) {
+    console.log(john.firstName + ' ' + john.lastName + ' has a higher BMI of ' + john.bmi);
+} else if (mike.bmi > john.bmi) { 
+    console.log(mike.firstName + ' ' + mike.lastName + ' has a higher BMI of ' + mike.bmi);
 } else{
     console.log('They have the same BMI');
-}
+}*/
 
 
 

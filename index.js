@@ -800,7 +800,7 @@ if (john.calcBMI() > mike.calcBMI()) {
 //i = 10; 10 < 10 false, exit the loop
 
 
-
+///////THE FOR LOOP
 //count from 0 to 9 loop iteration
 /*for (var i = 0; i<11; i++){
     console.log(i);
@@ -814,13 +814,30 @@ if (john.calcBMI() > mike.calcBMI()) {
 //expected 1,2,3,4,5,6,7,8,9,10
 
 //increase the value by 2 
-for (var i = 1; i <= 10; i+=2){
+/*for (var i = 1; i <= 10; i+=2){
     console.log(i);
-}
+}*/
 //expected 1,3,5,7,9
 
 
 
+//print all the value to the console using the for loop 
+var john = ['John', 'Smith', 1990, 'designer', false];
+for(var i =0; i< john.length; i++){
+    console.log(john[i]);
+}
 
+
+
+/////THE WHILE LOOP
+
+//using while loop. The different between for and while loop is:
+//in while loop we use the conditional part only
+
+var i = 0;
+while (i < john.length){
+    console.log(john[i]);
+    i++
+}
 
 

@@ -790,5 +790,9 @@ if (john.calcBMI() > mike.calcBMI()) {
 
 
 
+/*********************************************
+ * loop and iteration
+ */
 
+ 
 

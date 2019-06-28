@@ -793,6 +793,7 @@ if (john.calcBMI() > mike.calcBMI()) {
 /*********************************************
  * loop and iteration
  */
-
- 
-
+//count from 0 to 10 loop iteration
+for (var i = 0; i<11; i++){
+    console.log(i);
+}

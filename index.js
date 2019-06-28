@@ -841,17 +841,22 @@ while (i < john.length){
 
 //continue and break statements
 // this is going to skip the numbers and booleans, everything that it's not a string
-var john = ['John', 'Smith', 1990, 'designer', false, 'blue'];
+/*var john = ['John', 'Smith', 1990, 'designer', false, 'blue'];
 for(var i =0; i< john.length; i++){
     if(typeof john[i] !== 'string') continue;
     console.log(john[i]);
-}
+}*/
 
 //break statement
 //this is print until the value is number because you iterate with break
-var john = ['John', 'Smith', 1990, 'designer', false, 'blue'];
-for(var i =0; i< john.length; i++){
+/*for(var i =0; i< john.length; i++){
     if(typeof john[i] !== 'string') break;
+    console.log(john[i]);
+}*/
+
+//looping backwards
+var john = ['John', 'Smith', 1990, 'designer', false, 'blue'];
+for( i = john.length -1; i >= 0; i--){
     console.log(john[i]);
 }
 

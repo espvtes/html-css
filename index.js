@@ -822,10 +822,10 @@ if (john.calcBMI() > mike.calcBMI()) {
 
 
 //print all the value to the console using the for loop 
-var john = ['John', 'Smith', 1990, 'designer', false];
+/*var john = ['John', 'Smith', 1990, 'designer', false];
 for(var i =0; i< john.length; i++){
     console.log(john[i]);
-}
+}*/
 
 
 
@@ -833,11 +833,17 @@ for(var i =0; i< john.length; i++){
 
 //using while loop. The different between for and while loop is:
 //in while loop we use the conditional part only
-
-var i = 0;
+/*var i = 0;
 while (i < john.length){
     console.log(john[i]);
     i++
-}
+}*/
 
+//continue and break statements
+// this is going to skip the numbers and booleans, everything that it's not a string
+var john = ['John', 'Smith', 1990, 'designer', false, 'blue'];
+for(var i =0; i< john.length; i++){
+    if(typeof john[i] !== 'string') continue;
+    console.log(john[i]);
+}
 

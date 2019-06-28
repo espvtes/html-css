@@ -847,3 +847,11 @@ for(var i =0; i< john.length; i++){
     console.log(john[i]);
 }
 
+//break statement
+//this is print until the value is number because you iterate with break
+var john = ['John', 'Smith', 1990, 'designer', false, 'blue'];
+for(var i =0; i< john.length; i++){
+    if(typeof john[i] !== 'string') break;
+    console.log(john[i]);
+}
+
